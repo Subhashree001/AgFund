@@ -1,0 +1,83 @@
+body{
+  padding:3rem;
+  padding-bottom:5px;
+}
+h1{
+ font-family:'Acme', sans-serif;
+ font-size: 2.5rem;
+}
+p{
+  font-family: 'Balsamiq Sans',cursive;
+  text-align:center;
+  padding-bottom:0px;
+}
+
+.login{
+  background-color:#eff48e;
+  align-items:center;
+  height:90rem;
+  padding:5rem 2rem;
+  border-radius:7px;
+}
+.login_card{
+  width:60rem;
+  height:33rem;
+  background-color:#2ec1ac;
+  position:relative;
+  left:6rem;
+  border-radius:7px;
+  padding:1.5rem;
+  box-shadow: 0.2rem 0.2rem grey;
+  margin-bottom:5rem;
+}
+input[type=text], select ,input[type=password]{
+  width: 20rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height:2rem;
+}
+input[type=submit] {
+  width: 10rem;
+  background-color: #3e978b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color:#2ec1ac;
+    border-radius:10px;
+}
+input[type=submit] {
+  background-color:#3e978b;
+    border-radius:6px;
+}
+.form{
+  border-radius: 5px;
+  background-color:white;
+  padding: 20px;
+  width:25rem;
+  height:25rem;
+  box-shadow: 0.2rem 0.2rem #3e978b;
+  float:left;
+  margin:2rem;
+}
+.farmer_card{
+  height:35rem;
+}
+.ngo_Card{
+  height:40rem;
+}
+.login_img{
+   margin:1rem;
+   border-radius:10px;
+}
+btn{
+  border-radius:8px;
+}

@@ -1,0 +1,49 @@
+body{
+  margin:0px;
+}
+h1,h2{
+  font-family:'Acme', sans-serif;;
+}
+p,.navbar-item{
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Aboutus */
+.brand{
+  font-size:2rem;
+}
+.about_us{
+  //background-image: url("images/bg_image.jpg");
+  height:550px;
+  color:white;
+  overflow: hidden;
+  position: relative;
+  background-color:#2ec1ac;
+}
+.navbar-brand{
+  font-family: 'Acme', sans-serif;
+}
+.text_about_us{
+  text-align:center;
+  width:680px;
+  position:absolute;
+  left:17rem;
+  top:13rem;
+}
+.navbar{
+  color:white;
+}
+.bg_image{
+  heigth:50rem;
+}
+
+
+/* Shopping */
+.veg_cards{
+  background-color:#2ec1ac;
+  height:70rem;
+}
+.card{
+  width:25rem;
+  height:25rem;
+}

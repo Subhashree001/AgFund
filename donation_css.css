@@ -1,0 +1,122 @@
+body{
+  background-color: #2ec1ac;
+}
+.carosel_img{
+  height:30rem;
+}
+.don_text{
+  color:black;
+}
+.div_carosel{
+  background-color:#2ec1ac;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:'Acme', sans-serif;;
+}
+p{
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.Donation_section{
+  height:45rem;
+  padding:4rem;
+  text-align:center;
+  /* color:white; */
+}
+li{
+  font-size: 1.5rem;
+}
+.card{
+  height:28rem;
+  width:21rem;
+  border-radius: 5px
+  padding: 4rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+  background-color:  #91eae4;
+  margin:1rem;
+}
+.card_1{
+  background: #7f7fd5;
+  background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+  float:left;
+}
+.card_2{
+  background: #ff416c;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  float:left;
+}
+.card_3{
+  background: #00b09b;
+  background: linear-gradient(to right, #96c93d, #00b09b);
+  float:left;
+}
+.discounts{
+  margin-top:3rem;
+  text-align: left;
+}
+.donate_heading{
+  margin-top:3rem;
+}
+.price{
+  font-size:4rem;
+}
+.buy-button {
+  cursor: pointer;
+  position: absolute;
+  width: 250px;
+  height: 180px;
+  background: white;
+  border-radius: 15%;
+  right: -14%;
+  bottom: -27%;
+  transition: all 0.4s ease-in-out;
+
+  /* // BUTTON */
+  h3 {
+    text-shadow: 0 0 0;
+    text-decoration: none;
+    color: $white;
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.4s ease-in-out;
+  }
+}
+/* .buy_button:hover {
+  transform: scale(1.02);} */
+
+  .buy-button:hover {
+    width: 100%;
+    right: 0%;
+    border-radius: 0%;
+    h3 {
+      left: 90%;
+      transform: translate(-50%, 0%);
+    }
+    .card{
+      color:yellow;
+    }
+  }
+
+  footer{
+    height:1rem;
+    background-color:#2ec1ac;
+    text-align: center;
+    padding-bottom:0.5rem;
+  }
+  i{
+    padding:2rem;
+  }
+.don_text{
+  color:white;
+}
